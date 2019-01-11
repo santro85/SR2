@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recorder.js Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="keywords" content="WebRTC getUserMedia MediaRecorder API"> -->
+    <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<link rel="manifest" href="manifest.json">
+	 
+	<!-- Add to home screen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Sound Recorder">
+	<link rel="apple-touch-icon" href="sound-recorder-icon-152.png">
+	<!-- Tile icon for Windows -->
+	<meta name="msapplication-TileImage" content="sound-recorder-icon-144.png">
+	<meta name="msapplication-TileColor" content="#2F3BA2">    
+  </head>
+  <body>  
+		<div id="controls">
+			<button id="recordButton">Record</button>
+			<button id="pauseButton" disabled>Pause</button>
+			<button id="stopButton" disabled>Stop</button>
+		</div>
+		<div id="formats">Format: start recording to see sample rate</div>
+		<h3>Recordings</h3>
+		<ol id="recordingsList"></ol>
+
+		<!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+		<script src="recorder.js"></script>
+		<script src="app.js"></script>
+  </body>
+</html>
