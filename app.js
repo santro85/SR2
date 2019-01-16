@@ -195,11 +195,11 @@ window.addEventListener('beforeinstallprompt', function (e) {
 
 function showAddToHomeScreen() {
 
-  var a2hsBtn = document.querySelector("#install");
+  //var a2hsBtn = document.querySelector("#install");
 
-  a2hsBtn.style.display = "block";
+  //a2hsBtn.style.display = "block";
 
-  a2hsBtn.addEventListener("click", addToHomeScreen);
+  //a2hsBtn.addEventListener("click", addToHomeScreen);
 
 }
 
