@@ -25,7 +25,7 @@
         "src": "sound-recorder-icon-512.png",
         "sizes": "512x512",
         "type": "image/png"
-      },],
+      }],
     "start_url": "/SR2/",
     "scope":".",
     "display": "standalone",
