@@ -1,7 +1,7 @@
 var CACHE_NAME = 'SoundRecorder';
 //new
 var urlsToCache = [
-  '/',
+  'index.html',
   'style.css',
   'app.js',
   'sound-recorder-icon.png',
