@@ -22,7 +22,7 @@
         "sizes": "256x256",
         "type": "image/png"
       }],
-    "start_url": "./",
+    "start_url": "/SR2/",
     "scope":"/SR2/",
     "display": "standalone",
     "background_color": "#3E4EB8",
