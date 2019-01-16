@@ -171,7 +171,7 @@ function createDownloadLink(blob) {
 var installButton = document.getElementById('install');
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('safety-worker.js').then(() => {
+  navigator.serviceWorker.register('SW.js').then(() => {
     return navigator.serviceWorker.ready;
   }).then(reg => {
     console.log('Service Worker ready :^)', reg);
