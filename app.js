@@ -194,6 +194,7 @@ function showAddToHomeScreen() {
 
 
 function addToHomeScreen() {
+	alert("initiated function);
   var a2hsBtn = document.querySelector(".ad2hs-prompt");
 
   // hide our user interface that shows our A2HS button
